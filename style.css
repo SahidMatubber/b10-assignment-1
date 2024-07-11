@@ -71,7 +71,7 @@ nav {
 
 .why-development {
     border-radius: 16px;
-    background: rgba(13, 19, 33, 0.02);
+    background: rgba(13, 19, 33, 0.059);
     text-align: center;
     margin: 80px 150px 80px 150px;
     padding: 50px 130px;
@@ -84,8 +84,15 @@ nav {
 
 .answer-container {
     display: flex;
+    margin: 30px 0 40px 0;
+    text-align: left;
+}
+
+.answer-container-ex {
+    display: flex;
     margin: 40px 0 40px 0;
     text-align: left;
+
 }
 
 .answer-title {
@@ -99,19 +106,30 @@ nav {
 .border {
     border-bottom-left-radius: 16px;
     border-top-left-radius: 16px;
-    background: #ffffff;
-    margin-right: 96px;
-    padding: 40px;
+    background: linear-gradient(90deg in oklab, #ffffff, #F1F1F2);
+    margin-right: 20px 0 20PX 0;
+    padding: 20px 45PX 30PX 45PX;
 
 }
 
-.answer-container a {
+.border-ex {
+    border-bottom-right-radius: 16px;
+    border-top-right-radius: 16px;
+    background: linear-gradient(90deg in oklab, #F1F1F2, #ffffff);
+    margin-right: 20px 0 20PX 0;
+    padding: 20px 45PX 30PX 45PX;
+    justify-content: space-around;
+
+}
+
+.answer-container a,
+.border-ex a {
     text-decoration: none;
     color: #0d1321b3;
     border: 2px solid #0d1321b3;
-    padding: 10px 20px;
-    font-size: 24px;
-    font-weight: 500;
+    padding: 8px 16px;
+    font-size: 20px;
+    font-weight: 450;
 }
 
 .inspiration {
@@ -158,7 +176,7 @@ iframe {
 
 .target-caption {
     text-align: center;
-    margin: 10px 290px;
+    margin: 10px 190px 50px 190px;
 
 }
 
@@ -193,24 +211,111 @@ iframe {
     margin-bottom: 50px;
 }
 
+.next-target {
+    margin: 80px 150px 50px 150px;
+}
+
 .target-2 {
     display: flex;
-    border: 1px solid #808080e0;
+    border: 2px solid #80808095;
     border-radius: 16px;
-    padding: 24px 24px;
+    padding: 32px 45px 32PX 45PX;
     margin-bottom: 20px;
 
 }
 
 .margin {
-    margin-right: 50px;
+    margin: auto;
+    padding-right: 50px;
     width: 94.78px;
     height: 84.41px;
-    left: 0;
-    top: 11.8px;
 }
 
 .special-tag a {
     color: #0d1321;
     font-weight: 700;
+}
+
+.contact {
+    background-image: url('assets/handshake.jpg');
+    margin: 10px 150px 10px 150px;
+    border-radius: 16px;
+    height: 315px;
+}
+
+.contact-title {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.contact-items {
+    padding: 30px 210px;
+}
+
+.contact-caption {
+    text-align: center;
+}
+
+.message {
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+.input-text {
+    padding: 10px 60px 10px 0;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    text-align: left;
+    font-size: medium;
+    font-family: "Azeret Mono", monospace;
+    margin-right: 10px;
+    height: 25px;
+    width: 60%;
+    padding: 19px 20px 19px 19px;
+}
+
+.input-submit {
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    height: 60px;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Azeret Mono", monospace;
+}
+
+.contact-description {
+    color: #d4d4d4e7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+}
+
+footer {
+    background: rgba(15, 19, 26, 0.168);
+    padding: 15px 0px;
+}
+
+footer h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+footer img {
+    margin-right: 15px;
+}
+
+.footer-item {
+    display: flex;
+    margin: 0px 100px;
+    justify-content: space-between;
+    align-items: center;
 }
