@@ -1,5 +1,6 @@
 body {
     font-family: "Azeret Mono", monospace;
+    margin: 0%;
 }
 
 nav {
@@ -238,9 +239,12 @@ iframe {
 
 .contact {
     background-image: url('assets/handshake.jpg');
-    margin: 10px 150px 10px 150px;
+    margin: 10px 150px 80px 150px;
     border-radius: 16px;
-    height: 315px;
+    height: 350px;
+    background-position: center;
+    /* background-repeat: no-repeat;  */
+    background-size: cover;
 }
 
 .contact-title {
